@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "electron .",
-    "build": "npx electron-packager ."
+    "build": "npx electron-packager . vime --platform=win32 --arch=x64 --icon src/assets/icone.ico "
   },
   "devDependencies": {
     "electron": "^21.1.0",
