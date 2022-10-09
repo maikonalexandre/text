@@ -1,0 +1,15 @@
+{
+  "name": "vime",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "author": "maikon",
+  "license": "MIT",
+  "scripts": {
+    "dev": "electron .",
+    "build": "npx electron-packager ."
+  },
+  "devDependencies": {
+    "electron": "^21.1.0",
+    "electron-reload": "^2.0.0-alpha.1"
+  }
+}
